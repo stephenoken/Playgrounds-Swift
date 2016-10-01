@@ -308,10 +308,10 @@ enum Rank:Int {
         }
     }
     
-    func indefinateArtical() -> Bool {
-        let value = String(self).lowercaseString
-        return ["a","e","i","o","u"].indexOf(value.)
-    }
+//    func indefinateArtical() -> Bool {
+//        let value = String(self).lowercaseString
+//        return ["a","e","i","o","u"].indexOf(value)
+//    }
 }
 let ace = Rank.Ace
 let rawVal = ace.rawValue
